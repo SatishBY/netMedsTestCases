@@ -1,0 +1,11 @@
+com\qa\testscripts\NetMed_TestBase.class
+com\qa\testscripts\TestBase.class
+com\qa\testscripts\TC_NetMeds_002.class
+com\qa\pages\PaytmPages.class
+com\qa\pages\NetMedsPages.class
+com\qa\utility\ExcelUtility.class
+com\qa\utility\Reporting.class
+com\qa\testscripts\TC_NetMeds_001.class
+com\qa\testscripts\TC_Paytm_001.class
+com\qa\testscripts\paytm.class
+com\qa\testscripts\TC_NetMeds_003.class
