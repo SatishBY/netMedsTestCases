@@ -20,7 +20,7 @@ public class TC_NetMeds_002 extends TC_NetMeds_001 {
 			}	
 		}
 		NetMedOR.getcartDetails().click();
-		
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		Boolean  CurrentUrlCart= driver.getCurrentUrl().contains("cart");
 		if(CurrentUrlCart) {
 			Reporter.log("The user is navigated to the cart page");
