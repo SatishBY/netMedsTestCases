@@ -9,42 +9,12 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test Automation Chrome</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">2</td><td class="num">24,589</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test Automation Chrome</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">76,282</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test Automation Chrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.testscripts.TC_NetMeds_001</td><td><a href="#m0">SearchItem</a></td><td rowspan="1">1657711919794</td><td rowspan="1">606</td></tr><tr class="failedodd"><td rowspan="1">com.qa.testscripts.TC_NetMeds_002</td><td><a href="#m1">SearchItem</a></td><td rowspan="1">1657711933016</td><td rowspan="1">1228</td></tr><tr><th colspan="4">Test Automation Chrome &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.qa.testscripts.TC_NetMeds_002</td><td><a href="#m2">CartPage</a></td><td rowspan="1">1657711934253</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test Automation Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.qa.testscripts.TC_NetMeds_001</td><td><a href="#m0">SearchItem</a></td><td rowspan="1">1657861376455</td><td rowspan="1">16373</td></tr><tr class="passedodd"><td rowspan="2">com.qa.testscripts.TC_NetMeds_002</td><td><a href="#m1">CartPage</a></td><td rowspan="1">1657861418740</td><td rowspan="1">7787</td></tr><tr class="passedodd"><td><a href="#m2">SearchItem</a></td><td rowspan="1">1657861404548</td><td rowspan="1">14123</td></tr></tbody>
 </table>
-<h2>Test Automation Chrome</h2><h3 id="m0">com.qa.testscripts.TC_NetMeds_001#SearchItem</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Dolo</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">The user is Landed on the NetMeds Home Page</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: unexpected command response
-  (Session info: chrome=103.0.5060.114)
-Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
-System info: host: &apos;LAPTOP-Q0AMV9NF&apos;, ip: &apos;192.168.82.231&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\91812\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50028}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cce630dd30378ac64cc2b678e7afcac6
-*** Element info: {Using=id, value=delivery_details}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.getText(Unknown Source)
-	at com.qa.testscripts.TC_NetMeds_001.SearchItem(TC_NetMeds_001.java:28)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.qa.testscripts.TC_NetMeds_002#SearchItem</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Dolo</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">The user is Landed on the NetMeds Home Page<br/>The default pincode 110002 is not displayed</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at com.qa.testscripts.TC_NetMeds_001.SearchItem(TC_NetMeds_001.java:35)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.qa.testscripts.TC_NetMeds_002#CartPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.qa.testscripts.TC_NetMeds_002.CartPage() on instance com.qa.testscripts.TC_NetMeds_002@7a187f14 depends on not successfully finished methods 
-[com.qa.testscripts.TC_NetMeds_001.SearchItem() on instance com.qa.testscripts.TC_NetMeds_002@7a187f14
-com.qa.testscripts.TC_NetMeds_001.SearchItem() on instance com.qa.testscripts.TC_NetMeds_001@2a556333]
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test Automation Chrome</h2><h3 id="m0">com.qa.testscripts.TC_NetMeds_001#SearchItem</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Dolo</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">The user is Landed on the NetMeds Home Page<br/>The default pincode 110002 is displayed<br/>Search item is typed<br/>Page related to item is loaded<br/>Items loaded are related to search item<br/>Order details added to the cart is displayed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.testscripts.TC_NetMeds_002#CartPage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">The user is navigated to the cart page<br/>The product added to the cart is present in the cart page</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.testscripts.TC_NetMeds_002#SearchItem</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Dolo</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">The user is Landed on the NetMeds Home Page<br/>The default pincode 110002 is displayed<br/>Search item is typed<br/>Page related to item is loaded<br/>Items loaded are related to search item<br/>Order details added to the cart is displayed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

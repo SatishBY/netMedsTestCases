@@ -1,19 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 26.062 s <<< FAILURE! - in TestSuite
-SearchItem(com.qa.testscripts.TC_NetMeds_001)  Time elapsed: 0.859 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-unknown error: unexpected command response
-  (Session info: chrome=103.0.5060.114)
-Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
-System info: host: 'LAPTOP-Q0AMV9NF', ip: '192.168.82.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\91812\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50028}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: cce630dd30378ac64cc2b678e7afcac6
-*** Element info: {Using=id, value=delivery_details}
-	at com.qa.testscripts.TC_NetMeds_001.SearchItem(TC_NetMeds_001.java:28)
-
-SearchItem(com.qa.testscripts.TC_NetMeds_002)  Time elapsed: 1.227 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 78.88 s - in TestSuite

@@ -2,6 +2,7 @@ package com.qa.testscripts;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -19,6 +20,7 @@ public class TC_NetMeds_002 extends TC_NetMeds_001 {
 			}	
 		}
 		NetMedOR.getcartDetails().click();
+		
 		Boolean  CurrentUrlCart= driver.getCurrentUrl().contains("cart");
 		if(CurrentUrlCart) {
 			Reporter.log("The user is navigated to the cart page");

@@ -5,6 +5,7 @@ import org.testng.annotations.AfterMethod;
 import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -44,6 +45,7 @@ public class NetMed_TestBase {
 		     
 		   driver.get(URL);
 		   driver.manage().window().maximize();
+		   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		   NetMedOR = new NetMedsPages(driver);
 	  
    }
